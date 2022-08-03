@@ -1,0 +1,61 @@
+/* USER VARIABLES SECTION */
+
+:root {
+	--main-color: #52503B;
+	--second-color-text: #333;
+	--regular-text: 14px;
+	--lineheight: 1.5;
+	--userfont: 'Montserrat', sans-serif;
+	--fontwidth: 400;
+}
+
+/* BOOTSTRAP SETTINGS SECTION */
+
+/* gutter 20px (10px + 10px). Comment this code for default gutter start at 1.5rem (24px) wide. */
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+	--bs-gutter-x: .625rem;
+}
+
+.row,
+.row>* {
+	--bs-gutter-x: 1.25rem;
+}
+
+/* GENERAL CSS SETTINGS */
+
+body {
+	font-family: var(--userfont);
+	font-size: var(--regular-text);
+	line-height: var(--lineheight);
+	color: var(--main-color);
+	min-width: 320px;
+	position: relative;
+	overflow-x: hidden;
+	font-weight: var(--fontwidth);
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+	color: var(--main-color);
+	text-decoration: none;
+}
+
+.list {
+	list-style: none;
+	padding: 0%;
+}
+
+.button {
+	border: none;
+	border-radius: 6px;
+}
+
+/* USER STYLES */
